@@ -10,13 +10,5 @@ class Person():
         print(self.name)
         print(self.age)
 
-def.birthday()
-kristo.info
-
-kristo = Person()
-kristo.setPerson('kristo', 16)
-kristo.info()
-
-margus = Person()
-margus.setPerson('Margus', 45)
-margus.info()
+    def birthday(self):
+        self.age += 1
