@@ -1,16 +1,11 @@
 class Kasutaja():
- def __init__(self, first_name, surename, GPU):
-        self.first_name = first_name
-        self.surename = surename
-        self.GPU = GPU
+    def __init__(self, e_nimi, p_nimi, su):
+        self.eesnimi = e_nimi
+        self.perenimi = p_nimi
+        self.sugu = su
 
- def tervita_kasutaja(self):
-        print("Tere, " + str(self.first_name) + " " + str(self.surename))
+    def kirjelda_kasutaja(self):
+        print("Eesnimi: " + str(self.eesnimi) + ", Perenimi: " + str(self.perenimi) + ", Sugu: " + str(self.sugu))
 
- def kirjalda_Kasutaja(self):
-        print("Kasutaja andmed: ")
-        print("eesnimi: " str(self.first_name))
-        print("eesnimi: " str(self.surename))
-
-  def kirjalda_Kasutaja_GPUd(self):
-    print("kasutaja GPU on: "str(self.GPU))
+    def tervita_kasutaja(self):
+        print(str(self.eesnimi) + " " + str(self.perenimi) + ", Tere jälle!")
