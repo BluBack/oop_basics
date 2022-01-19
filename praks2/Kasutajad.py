@@ -1,25 +1,22 @@
 from praks2.kasutaja import Kasutaja
 
 kasutaja1 = Kasutaja()
-Kasutaja1.first_name = "Kristo"
-Kasutaja1.surename = "Kangro"
-Kasutaja3.GPU = "RTX 2080 s"
-Kasutaja1.kirjelda_Kasutaja_GPUd()
-Kasutaja1.kirjelda_kasutaja()
-Kasutaja1.tervita_kasutajat()
+kasutaja1.eesnimi = "Kristo"
+kasutaja1.perenimi = "Kangro"
+kasutaja1.sugu = "mees"
+kasutaja1.kirjelda_kasutaja()
+kasutaja1.tervita_kasutaja()
 
 kasutaja2 = Kasutaja()
-Kasutaja2.first_name = "Tanel"
-Kasutaja2.surename = "Tamm"
-Kasutaja3.GPU = "   GTX 1080 ti"
-Kasutaja2.kirjelda_Kasutaja_GPUd()
-Kasutaja2.kirjelda_kasutaja()
-Kasutaja2.tervita_kasutajat()
+kasutaja2.eesnimi = "Jan"
+kasutaja2.perenimi = "Paju"
+kasutaja2.sugu = "mees"
+kasutaja2.kirjelda_kasutaja()
+kasutaja2.tervita_kasutaja()
 
 kasutaja3 = Kasutaja()
-Kasutaja3.first_name = "Kevin"
-Kasutaja3.surename = "Mägi"
-Kasutaja3.GPU = "RTX 2060"
-Kasutaja3.kirjelda_Kasutaja_GPUd()
-Kasutaja3.kirjelda_kasutaja()
-Kasutaja3.tervita_kasutajat()
+kasutaja3.eesnimi = "Tõnu"
+kasutaja3.perenimi = "Mout"
+kasutaja3.sugu = "mees"
+kasutaja3.kirjelda_kasutaja()
+kasutaja3.tervita_kasutaja()

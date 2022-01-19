@@ -1,15 +1,10 @@
 class Kasutaja():
-    first_name = ""
-    surename = ""
-    GPU = ""
+    eesnimi = "Eesnimi"
+    perenimi = "Perenimi"
+    sugu = "Sugu"
 
-    def tervita_kasutajat(self):
-        print("Tere, " + str(self.first_name) + " " + str(self.surename))
+    def kirjelda_kasutaja(self):
+        print("Eesnimi: " + str(self.eesnimi) + ", Perenimi: " + str(self.perenimi) + ", Sugu: " + str(self.sugu))
 
-    def kirjelda_Kasutaja(self):
-        print("Kasutaja andmed: ")
-        print("eesnimi: " str(self.first_name))
-        print("eesnimi: " str(self.surename))
-
-def kirjelda_Kasutaja_GPUd(self):
-    print("kasutaja GPU on: "str(self.GPU))
+    def tervita_kasutaja(self):
+        print(str(self.eesnimi) + " " + str(self.perenimi) + ", Tere uuesti!")
