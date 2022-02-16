@@ -7,18 +7,19 @@ class AknadUksed:
 class Tuba:
     """klass toa kirjeldamiseks"""
     def __init__(self, p, l, k):
+        """toa mõõtude lisamiseks vajalik konstruktor"""
         self.pikkus = p
         self.laius = l
         self.kõrgus = k
         self.aknad_uksed = []
     def lisaAkenUks(self, laius, kõrgus):
         self.aknad_uksed.append(AknadUksed(laius, kõrgus))
-        """akna või ukse"""
+        """akna või ukse loomiseks vajalik konstruktor"""
     def täisPind(self):
-        """täis pinna"""
+        """täispinna loomiseks vajalik konstruktor"""
         return 2 + self.kõrgus * (self.pikkus + self.laius)
     def tööPind(self):
-        """tööpinna """
+        """tööpinna loomiseks vajalik konstruktor """
         uus_pindala = self.täisPind()
         for element in self.aknad_uksed:
             uus_pindala = uus_pindala - element.pindala
