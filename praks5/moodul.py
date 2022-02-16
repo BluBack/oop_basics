@@ -25,5 +25,7 @@ class Tuba:
         for element in self.aknad_uksed:
             uus_pindala = uus_pindala - element.pindala
             return uus_pindala
+        """tapeedi kuluvuse arvutamine"""
     def tapeedid(self, tp, tl):
+        """arvutame tapeedi pikkuse ja lajiuse"""
             return int(self.tööPind() / (tp * tl)) + 1
