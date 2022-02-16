@@ -15,12 +15,12 @@ class Tuba:
         self.aknad_uksed = []
     def lisaAkenUks(self, laius, kõrgus):
         self.aknad_uksed.append(AknadUksed(laius, kõrgus))
-        """akna või ukse loomiseks vajalik konstruktor"""
+        """arvutab akna või ukse pindala"""
     def täisPind(self):
-        """täispinna loomiseks vajalik konstruktor"""
+        """arvutab kogu toa pindala"""
         return 2 + self.kõrgus * (self.pikkus + self.laius)
     def tööPind(self):
-        """tööpinna loomiseks vajalik konstruktor """
+        """tiidab kokku kogu to pindala """
         uus_pindala = self.täisPind()
         for element in self.aknad_uksed:
             uus_pindala = uus_pindala - element.pindala
